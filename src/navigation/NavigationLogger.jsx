@@ -34,7 +34,7 @@ export default function NavigationLogger(){
                 <Tab.Screen
                 name="Top5"
                 component={ProductosStack}
-                options={{title: "Top 5"}}
+                options={{title: "Productos"}}
                 />
                 <Tab.Screen
                 name="Profile"

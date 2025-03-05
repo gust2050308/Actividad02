@@ -2,8 +2,8 @@ import { StyleSheet, Text, View, FlatList } from "react-native";
 import { collection, getDocs } from "firebase/firestore"; 
 import { useEffect, useState } from "react";
 import React from "react";
-import CardListHouses from "../../../kernel/components/CardListHouses";
-import { db } from "../../../kernel/config/firebaseConfig"; // Asegúrate de importar la configuración de Firebase
+import CardListHouses from "../../../kernel/components/CardProductos";
+import { db } from "../../../kernel/utils/FirebaseConnection"; 
 
 export default function Home() {
   const [useHouse, setUseHouse] = useState([]);
